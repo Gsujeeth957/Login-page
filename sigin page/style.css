@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(assets/finalLogin.png);
+
+}
+
+.row{
+    background-color: white;
+    border-radius: 30px;
+}
+.img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.btn-1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color:darkcyan;
+    color:white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+/* .btn-1:hover{
+    background-color: ;
+    border:1px solid;
+    color: ;
+} */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 150px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+    margin-left: 390px;
+}
+.img-container {
+    float: left;
+    width: 13.33%;
+    padding: 5px;
+    margin-left: 10px;
+  }
